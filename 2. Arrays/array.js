@@ -95,7 +95,7 @@ console.log(newNumbers4); // return true or false
 const newNumbers5 = numbers.every((item, index, numbers) => {
   return item > 3;
 });
-console.log(newNumbers5); // return true or false
+console.log(newNumbers5); // return true or false if all items are less than 3
 
 
 
