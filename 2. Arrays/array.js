@@ -97,7 +97,13 @@ const newNumbers5 = numbers.every((item, index, numbers) => {
 });
 console.log(newNumbers5); // return true or false if all items are less than 3
 
+// 5.5 find
 
+const numbers = [4, 5, 7, 8, 1, 6];
 
+const newNumbers6 = numbers.find((item, index, numbers) => {
+  return item > 5;
+});
+console.log(newNumbers6); // print the first item which is greater than 5
 
 
